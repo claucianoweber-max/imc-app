@@ -1,0 +1,53 @@
+.geral{
+    background: #5f0d0d;
+}
+.container {
+  background: rgb(117, 135, 209);
+  padding: 30px;
+  border-radius: 15px;
+  width: 320px;
+  margin: 80px auto;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin: 15px;
+  padding: 10px 15px;
+  border: none;
+  background: #4facfe;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #007bff;
+}
+
+/* Botão limpar */
+.limpar {
+  background: #ff4d4d;
+}
+
+.limpar:hover {
+  background: #cc0000;
+}
+
+/* Resultado com destaque */
+.resultado {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  border: 2px solid;
+}
